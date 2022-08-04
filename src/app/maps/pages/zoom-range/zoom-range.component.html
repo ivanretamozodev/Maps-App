@@ -1,1 +1,12 @@
-<p>zoom-range works!</p>
+<div #divMap class="zoomrange-container"></div>
+
+<div class="row">
+    <div class="col-12">
+        <label class="form-label">zoom: 18</label>
+        <input type="range" class="form-range" />
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" (click)="zoomOut()">-</button>
+        <button class="btn btn-primary float-end" (click)="zoomIn()">+</button>
+    </div>
+</div>
