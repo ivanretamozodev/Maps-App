@@ -1,6 +1,5 @@
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
-import { map } from 'rxjs';
 
 interface markerColor {
     color: string;
@@ -55,6 +54,9 @@ export class MarkerComponent implements AfterViewInit {
         });
 
         this.saveMarkerInStorage();
+        marker.on('dragend', () => {
+            this.saveMarkerInStorage();
+        });
     }
 
     saveMarkerInStorage() {
@@ -90,6 +92,16 @@ export class MarkerComponent implements AfterViewInit {
                 marker: newMarker,
                 color: m.color,
             });
+
+            newMarker.on('dragend', () => {
+                this.saveMarkerInStorage();
+            });
         });
+    }
+
+    deleteMarker(index: number) {
+        this.markers[index].marker?.remove();
+        this.markers.splice(index, 1);
+        this.saveMarkerInStorage();
     }
 }
