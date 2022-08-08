@@ -11,7 +11,7 @@ export class ZoomRangeComponent implements AfterViewInit, OnDestroy {
     map!: mapboxgl.Map;
 
     zoomLevel: number = 10;
-    center: [number, number] = [-74.925, 45.28];
+    latLong: [number, number] = [-74.925, 45.28];
 
     constructor() {}
 
@@ -27,7 +27,7 @@ export class ZoomRangeComponent implements AfterViewInit, OnDestroy {
         this.map = new mapboxgl.Map({
             container: this.divMap.nativeElement,
             style: 'mapbox://styles/ivan14445/cl6fkyeac001l14pl4w7kcfre',
-            center: this.center,
+            center: this.latLong,
             zoom: this.zoomLevel,
         });
 
@@ -44,7 +44,7 @@ export class ZoomRangeComponent implements AfterViewInit, OnDestroy {
         this.map.on('move', (e) => {
             const target = e.target;
             const { lng, lat } = target.getCenter();
-            this.center = [lng, lat];
+            this.latLong = [lng, lat];
         });
     }
 

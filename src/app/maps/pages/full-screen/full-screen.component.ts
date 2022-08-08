@@ -14,7 +14,7 @@ export class FullScreenComponent implements OnInit {
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11',
             center: [-74.925, 45.28],
-            zoom: 18,
+            zoom: 10,
         });
     }
 }
