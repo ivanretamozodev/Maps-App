@@ -1,11 +1,6 @@
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
-
-interface markerColor {
-    color: string;
-    marker?: mapboxgl.Marker;
-    center?: [number, number];
-}
+import { markerColor } from 'src/app/core/interfaces';
 
 @Component({
     selector: 'app-marker',
