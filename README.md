@@ -29,13 +29,13 @@
 ###
 
 <div align="center">
-  <img height="400" src="https://i.ibb.co/x3nnftd/screencapture-localhost-4200-maps-fullscreen-2022-08-23-19-15-11.png"  />
+  <img width="100%" src="https://i.ibb.co/x3nnftd/screencapture-localhost-4200-maps-fullscreen-2022-08-23-19-15-11.png"  />
 </div>
 
 ###
 
 <div align="center">
-  <img height="400" src="https://i.ibb.co/nBL8JdW/screencapture-localhost-4200-maps-marker-2022-08-23-19-16-02.png"  />
+  <img width="100%" src="https://i.ibb.co/nBL8JdW/screencapture-localhost-4200-maps-marker-2022-08-23-19-16-02.png"  />
 </div>
 
 ###
