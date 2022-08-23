@@ -1,27 +1,41 @@
-# MapasAPP
+<h2 align="center">MapWorld 🗺</h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+###
 
-## Development server
+<h3 align="center">❓descripcion del proyecto</h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+###
 
-## Code scaffolding
+<p align="center">Mapworld es una PWA creada en Angular que permite ver mapas,hacer zoom en el,añadir marcadores y mas,<br>corre gracias a la api de Mapbox.</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+###
 
-## Build
+<h3 align="center">💻tecnologias utilizadas</h3>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+###
 
-## Running unit tests
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="48" width="60" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="48" width="60" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="48" width="60" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="48" width="60" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" height="48" width="60" alt="angularjs logo"  />
+</div>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+###
 
-## Running end-to-end tests
+<h3 align="center">📷imagen del proyecto</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+###
 
-## Further help
+<div align="center">
+  <img height="400" src="https://i.ibb.co/x3nnftd/screencapture-localhost-4200-maps-fullscreen-2022-08-23-19-15-11.png"  />
+</div>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+###
+
+<div align="center">
+  <img height="400" src="https://i.ibb.co/nBL8JdW/screencapture-localhost-4200-maps-marker-2022-08-23-19-16-02.png"  />
+</div>
+
+###
